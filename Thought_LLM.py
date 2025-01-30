@@ -2,7 +2,6 @@
 # Eventually will use a fine-tuned llama3.1:8b model
 
 import ollama
-from 
 
 class ThoughtLLM:
   def __init__(self, model_name: str = "llama3.1:8b"): # replace by a fine-tuned model
