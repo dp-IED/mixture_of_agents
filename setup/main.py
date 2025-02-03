@@ -35,9 +35,8 @@ while True:
   for (thought, (action, args)) in thoughts:
     print(thought)
 
-
 ## TODO: 
 ## [x] Search tool 
-## [] Thought Generation (first layer, using new tuple form)
-## [] Agentic loop (final layer and piecing it together, since agentic loop is thought gen at this stage)
-## [] User Interface Experimentation
+## [] Thought Generation (ThoughtLLM first layer, using new tuple format)
+## [] Agentic loop (execute actions and final LLM layer, agentic loop given thought gen output)
+## [] User Interface Experimentation (streaming agentic loop output to user)
