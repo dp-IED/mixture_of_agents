@@ -23,7 +23,7 @@ import asyncio
 ## thoughts are tuples of (thought, (action, args)) 
 ## thoughts are given to final layer which is the agentic loop which runs the actions
 ## when all actions are complete, the agentic loop pushes the outputs to the final layer which returns the answer
-## chat is also passed an array of tools
+## chat is also passed an array of tools so that the thought gen has knowledge of the tools available
 ## this puts the agentic loop in the main file which will help for server/client implementation
 
 agents = [
