@@ -38,6 +38,6 @@ while True:
 
 ## TODO: 
 ## [x] Search tool 
-## [] Thought Generation (first layer)
+## [] Thought Generation (first layer, using new tuple form)
 ## [] Agentic loop (final layer and piecing it together, since agentic loop is thought gen at this stage)
 ## [] User Interface Experimentation
