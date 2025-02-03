@@ -27,7 +27,7 @@ __Starter Agents are responsible for different tasks, such as:__
 - Information Retrieval (Web, Files, SQL Databases, other databases might require a Connector Agent)
 - Code Generation (access to an appropriate code interpreter, itterative loop for code generation, can also be called by other Agents)
 
-![Architecture](./system_architecture.excalidraw.png)
+![[Architecture](https://excalidraw.com/#json=Rd1qAyqYdpyiXuEGUoP5M,o2PKOs3xVkKxS6gtX5VFzw)](./system_architecture.excalidraw.png)
 
 ## Agent Expansion
 

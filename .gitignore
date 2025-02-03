@@ -1,0 +1,5 @@
+.env
+.deepeval
+.deepeval_telemetry.txt
+chroma_db
+hallucinations
