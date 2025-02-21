@@ -3,3 +3,4 @@
 .deepeval_telemetry.txt
 chroma_db
 hallucinations
+*.DS_Store
