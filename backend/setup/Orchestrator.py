@@ -30,6 +30,8 @@ class OrchestratorInputSchema(BaseIOSchema):
 
 class OrchestratorOutputSchema(BaseIOSchema):
     """Combined output schema for the Orchestrator Agent. Contains the tool to use and its parameters."""
+    
+    ## Change this output schema to create entire thought process at once, then execute, then reflect etc
 
     reasoning: str = Field(
         ...,
@@ -64,6 +66,7 @@ class Orchestrator:
         self.tool_names = ["WebSearch", "KnowledgeBase"]
         self.system_prompt_gen = SystemPromptGenerator(
             background=[
+                # adapt prompts to generate full thought process ThoughtProcessOutputSchema -> ToolCallingInputSchema -> Union[all tool input schemas]
                 "You are a tool calling Agent that helps answer questions.",
                 "Your task is to use tools to complete the user's objective.",
                 f"You have access to the following tools: {', '.join(self.tool_names)}",
